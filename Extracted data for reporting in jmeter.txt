@@ -1,0 +1,16 @@
+ Extracted data for reporting in jmeter-------
+Dear, 
+
+I’ve completed performance test on frequently used API for https://reqres.in/. 
+Test executed for the below mentioned scenario in server side. 
+
+500 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is 16.67 And Total Concurrent API requested: 1000.
+800 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is 26.67 And Total Concurrent API requested: 1600.
+1000 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is 33.33 And Total Concurrent API requested: 2000.
+
+
+While executed 1000 concurrent request, found  50 request got connection timeout and error rate is 2.50%. 
+
+Summary: Server can handle almost concurrent 900 API call with almost zero (0) error rate.
+
+Please find the details report from the attachment and  let me know if you have any further queries. 
